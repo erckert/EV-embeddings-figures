@@ -1,0 +1,18 @@
+Model;Q3;SE Q3
+SeqVec embeddings;73.2;0.6
+SeqVec MSA embeddings;78.3;0.6
+SeqVec MSA consensus;76.5;0.4
+SeqVec PSSM (model 0);;
+SeqVec PSSM (model 1);;
+Bert embeddings;;
+Bert MSA embeddings;;
+Bert MSA consensus;;
+Bert PSSM (model 0);;
+Bert PSSM (model 1);;
+ProtT5 embeddings;83.7;0.4
+ProtT5 MSA embeddings;83.8;0.4
+ProtT5 MSA consensus;83.0;0.4
+ProtT5 PSSM (model 0);83.2;0.4
+ProtT5 PSSM (model 1);83.3;0.4
+Random Baseline: Shuffel labels;;
+Random Baseline: Majority Class;41.8;0.6
