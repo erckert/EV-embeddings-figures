@@ -1,0 +1,22 @@
+Method;Embedding based;Performance Measure;Performance;CI/SE;Prediction type;Testset;Publication
+bindEmbed21DL;1;F1-all;47;CI: 2;PR ligand binding;TestSet225;https://www.biorxiv.org/content/10.1101/2021.09.03.458869v3.full
+bindPredictML17;0;F1-all;34;CI: 2;PR ligand binding;TestSet225;Performance: https://www.biorxiv.org/content/10.1101/2021.09.03.458869v3.full
+Random: PR ligand binding;0;;;;PR ligand binding;;
+ConSeq-19equal;0;MCC;0.206;CI: 0.010;PR conservation;PMD4k;Performance: https://link.springer.com/article/10.1007/s00439-021-02411-y
+ConSeq-19equal;0;Q2;71.51;CI:0.39;PR conservation;PMD4k;Performance: https://link.springer.com/article/10.1007/s00439-021-02411-y
+VESPA;1;MCC;0.274;CI: 0.086;PR conservation;PMD4k;https://link.springer.com/article/10.1007/s00439-021-02411-y
+VESPA;1;Q2;63.52;CI: 0.43;PR conservation;PMD4k;https://link.springer.com/article/10.1007/s00439-021-02411-y
+Random: PR conservation;0;MCC;-0.002;CI: 0.016;PR conservation;PMD4k;Performance: https://link.springer.com/article/10.1007/s00439-021-02411-y
+Random: PR conservation;0;Q2;61.08;CI: 0.41;PR conservation;PMD4k;Performance: https://link.springer.com/article/10.1007/s00439-021-02411-y
+NetSurfP-2.0;0;Q3;82.0;SE: 1.6;PR secondary structure;CASP12;Performance: https://www.biorxiv.org/content/10.1101/2020.07.12.199554v3.full.pdf
+ProtT5-XL-U50 (SecStr);1;Q3;81.4;SE:1.6;PR secondary structure;CASP12;https://www.biorxiv.org/content/10.1101/2020.07.12.199554v3.full.pdf
+Random: PR secondary structure;0;;;;PR secondary structure;;
+DeepLoc (localization);0;Q10;78;/;PP localization;?;Performance: https://www.biorxiv.org/content/10.1101/2020.07.12.199554v3.full.pdf
+DeepLoc (membrane);0;Q2;92;/;PP membrane;?;Performance: https://www.biorxiv.org/content/10.1101/2020.07.12.199554v3.full.pdf
+ProtT5-XL-U50 (localization);1;Q10;81;/;PP localization;?;https://www.biorxiv.org/content/10.1101/2020.07.12.199554v3.full.pdf
+ProtT5-XL-U50 (membrane);1;Q2;91;/;PP membrane;?;https://www.biorxiv.org/content/10.1101/2020.07.12.199554v3.full.pdf
+Random: PP membrane;0;;;;PP membrane;;
+Random: PP localization;0;;;;PP localization;;
+NetSurfP-2.0;0;MCC;0.604;/;PR disorder;CASP12;Performance: https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-3220-8
+DeepSeqVec;1;MCC;0.575;SE: 0.075;PR disorder;CASP12;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-3220-8
+Random: PR disorder;0;;;;PR disorder;;
