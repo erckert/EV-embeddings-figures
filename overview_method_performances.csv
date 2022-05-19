@@ -16,7 +16,7 @@ TMalign Family;0;Average-Precision;57.059;/;PP SCOP Family;ASTRAL 2.06;https://w
 DeepSequence;0;Spearman;0.499;/;PR effect;DMS41;https://www.biorxiv.org/content/10.1101/2021.07.09.450648v2.full
 TMSEG;0;Recall;95.1;CI: 1.1;PS signal peptide;698 globular;unpublished MB
 ;;;;;;;
-bindEmbed21DL;1;F1-all;47;CI: 2;PR ligand binding;TestSet225;https://www.biorxiv.org/content/10.1101/2021.09.03.458869v3.full
+bindEmbed21DL;1;pF1-all;47;CI: 2;PR ligand binding;TestSet225;https://www.biorxiv.org/content/10.1101/2021.09.03.458869v3.full
 VESPA;1;MCC;0.274;CI: 0.086;PR effect;PMD4k;https://link.springer.com/article/10.1007/s00439-021-02411-y
 VESPA;1;Q2;63.52;CI: 0.43;PR effect;PMD4k;https://link.springer.com/article/10.1007/s00439-021-02411-y
 ProtT5-XL-U50 (SecStr);1;Q3;81.4;SE:1.6;PR secondary structure;CASP12;https://www.biorxiv.org/content/10.1101/2020.07.12.199554v3.full.pdf
@@ -34,16 +34,16 @@ ESM-1v (+further training);1;Spearman;0.519;/;PR effect;DMS41;https://www.biorxi
 TMbed;1;Recall;98.9;CI: 0.7;PS signal peptide;698 globular;unpublished MB
 ;;;;;;;
 ZeroShot: PR ligand binding;2;F1-all;0;/;PR ligand binding;TestSet225;own
-Random: PR ligand binding;2;F1-all;;/;PR ligand binding;TestSet225;own
+Random: PR ligand binding;2;F1-all;3.7;/;PR ligand binding;TestSet225;own
 Random: PR effect;2;MCC;-0.002;CI: 0.016;PR effect;PMD4k;Performance: https://link.springer.com/article/10.1007/s00439-021-02411-y
 Random: PR effect;2;Spearman;;;;;
 Random: PR effect;2;Q2;61.08;CI: 0.41;PR effect;PMD4k;Performance: https://link.springer.com/article/10.1007/s00439-021-02411-y
-Random: PR secondary structure;;;;;;;
+Random: PR secondary structure;2;Q3;38.6;/;PR secondary structure;CASP12;own
 Zero Shot: PR secondary structure;2;Q3;48.6;/;PR secondary structure;CASP12;own
 Random: PP membrane;2;;;;;;
 ZeroShot: PP localization;2;Q10;33;/;PP localization;DeepLoc Test;own
-Random: PP localization;2;;;;;;
-Random: PR disorder;;;;;;;
+Random: PP localization;2;Q10;19.2;/;PP localization;DeepLoc;own
+Random: PR disorder;2;MCC;0.007;/;PR disorder;CASP12;own
 ZeroShot: PR disorder;2;MCC;0;/;PR disorder;CASP12;own
 Random: PP CATH;2;MCC;0.00001;CI: 0.00030;PP CATH;TOP 1773;https://doi.org/10.1101/2022.03.10.483805
 Random: PP CATH;2;F1;1.60;CI: 0.28;PP CATH;TOP 1773;https://doi.org/10.1101/2022.03.10.483805
