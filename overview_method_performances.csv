@@ -1,82 +1,73 @@
-Method;Embedding based;Performance Measure;Performance;CI/SE;Prediction type;Testset;Publication
-SignalP-5.0 retrain (Eukarya);0;MCC;0.774;/;PR signal peptide;SignalP5.0 benchmark set;https://www.nature.com/articles/s41587-021-01156-3#Sec10
-SignalP-5.0 original (Eukarya);0;MCC;0.863;/;PR signal peptide;SignalP5.0 benchmark set;https://www.nature.com/articles/s41587-021-01156-3#Sec10
-bindPredictML17;0;F1-all;34;CI: 2;PR ligand binding;TestSet225;Performance: https://www.biorxiv.org/content/10.1101/2021.09.03.458869v3.full
-ConSeq-19equal;0;MCC;0.206;CI: 0.010;PR effect;PMD4k;Performance: https://link.springer.com/article/10.1007/s00439-021-02411-y
-ConSeq-19equal;0;Q2;71.51;CI:0.39;PR effect;PMD4k;Performance: https://link.springer.com/article/10.1007/s00439-021-02411-y
-NetSurfP-2.0;0;Q3;82.0;SE: 1.6;PR secondary structure;CASP12;Performance: https://www.biorxiv.org/content/10.1101/2020.07.12.199554v3.full.pdf
-DeepLoc (localization);0;Q10;78;/;PP localization;DeepLoc Test;Performance: https://www.biorxiv.org/content/10.1101/2020.07.12.199554v3.full.pdf
-BOCTOPUS2;0;Recall;85.3;CI: 9.2;PS membrane beta;65;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04873-x
-TOPCONS2;0;Recall;76.4;CI: 1.5;PS membrane helix;593;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04873-x
-BLAST;0;MCC;0.3100;CI: 0.0056;PP CATH;TOP 1773;https://doi.org/10.1101/2022.03.10.483805
-BLAST;0;F1;21.53;CI: 0.60;PP CATH;TOP 1773;https://doi.org/10.1101/2022.03.10.483805
-TMalign Class;0;Average-Precision;54.866;/;PP SCOP Class;ASTRAL 2.06;https://www.cell.com/cell-systems/pdfExtended/S2405-4712(21)00203-9
-TMalign Fold;0;Average-Precision;85.072;/;PP SCOP Fold;ASTRAL 2.06;https://www.cell.com/cell-systems/pdfExtended/S2405-4712(21)00203-9
-TMalign Superfamily;0;Average-Precision;83.340;/;PP SCOP Superfamily;ASTRAL 2.06;https://www.cell.com/cell-systems/pdfExtended/S2405-4712(21)00203-9
-TMalign Family;0;Average-Precision;57.059;/;PP SCOP Family;ASTRAL 2.06;https://www.cell.com/cell-systems/pdfExtended/S2405-4712(21)00203-9
-DeepSequence;0;Spearman;0.499;/;PR effect;DMS41;https://www.biorxiv.org/content/10.1101/2021.07.09.450648v2.full
-GEMME;0;Spearman;0.53;SD: 0.13;PR effect;DMS41;https://academic.oup.com/mbe/article/36/11/2604/5548199
-TMSEG;0;Recall;81.5;CI: 3.7;PS signal peptide;661 globular;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04873-x
-ODiNPred;0;Spearman;0.67;CI: 0.01;PR disorder;CheZOD117;https://www.biorxiv.org/content/10.1101/2022.06.23.497276v3.full.pdf
-;;;;;;;
-SignalP-6.0 (Eukarya);1;MCC;0.868;/;PR signal peptide (Archaea);Signal-P5.0 benchmark set;https://www.nature.com/articles/s41587-021-01156-3#Sec10
-bindEmbed21DL;1;F1-all;47;CI: 2;PR ligand binding;TestSet225;https://www.biorxiv.org/content/10.1101/2021.09.03.458869v3.full
-VESPA;1;MCC;0.274;CI: 0.086;PR effect;PMD4k;https://link.springer.com/article/10.1007/s00439-021-02411-y
-VESPA;1;Q2;63.52;CI: 0.43;PR effect;PMD4k;https://link.springer.com/article/10.1007/s00439-021-02411-y
-ProtT5-XL-U50 (SecStr);1;Q3;81.4;SE:1.6;PR secondary structure;CASP12;https://www.biorxiv.org/content/10.1101/2020.07.12.199554v3.full.pdf
-Ankh (SecStr);1;Q3;83.8;CI:3;PR secondary structure;CASP12;https://arxiv.org/pdf/2301.06568v1.pdf
-ProtT5-XL-U50 (localization);1;Q10;81;/;PP localization;DeepLoc Test;https://www.biorxiv.org/content/10.1101/2020.07.12.199554v3.full.pdf
-LA(ProtT5);1;Q10;86;SD:0.3;PP localization;DeepLoc Test;https://academic.oup.com/bioinformaticsadvances/article/1/1/vbab035/6432029?login=true
-TMbed (beta);1;Recall;95.0;CI: 4.3;PS membrane beta;65;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04873-x
-TMbed (alpha);1;Recall;88.7;CI: 0.6;PS membrane helix;593;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04873-x
-CATHe;1;MCC;0.8554;CI: 0.0041;PP CATH;TOP 1773;https://doi.org/10.1101/2022.03.10.483805
-CATHe;1;F1;72.35;CI: 0.67;PP CATH;TOP 1773;https://doi.org/10.1101/2022.03.10.483805
-MT-LSTM Class;1;Average-Precision;95.146;/;PP SCOP Class;ASTRAL 2.06;https://www.cell.com/cell-systems/pdfExtended/S2405-4712(21)00203-9
-MT-LSTM Fold;1;Average-Precision;92.387;/;PP SCOP Fold;ASTRAL 2.06;https://www.cell.com/cell-systems/pdfExtended/S2405-4712(21)00203-9
-MT-LSTM Superfamily;1;Average-Precision;95.084;/;PP SCOP Superfamily;ASTRAL 2.06;https://www.cell.com/cell-systems/pdfExtended/S2405-4712(21)00203-9
-MT-LSTM Family;1;Average-Precision;66.901;/;PP SCOP Family;ASTRAL 2.06;https://www.cell.com/cell-systems/pdfExtended/S2405-4712(21)00203-9
-ESM-1v (+further training);1;Spearman;0.519;/;PR effect;DMS41;https://www.biorxiv.org/content/10.1101/2021.07.09.450648v2.full
-TMbed;1;Recall;93.3;CI: 1.4;PS signal peptide;661 globular;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04873-x
-DeepTMHMM;1;Recall;95.3;CI: 1.8;PS signal peptide;661 globular;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04873-x
-SETH;1;Spearman;0.72;CI: 0.01;PR disorder;CheZOD117;https://www.biorxiv.org/content/10.1101/2022.06.23.497276v3.full.pdf
-;;;;;;;
-goPredSim (BPO);1;Fmax(BPO);37;CI: 2;PP GO Function (BPO); CAFA3;https://www.nature.com/articles/s41598-020-80786-0.pdf
-DomFun (BPO);0;Fmax(BPO);49.2;/;PP GO Function (BPO); CAFA3;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04565-6
-GOLabeler (BPO);0;Fmax(BPO);40;CI: 1;PP GO Function (BPO);CAFA3;https://genomebiology.biomedcentral.com/track/pdf/10.1186/s13059-019-1835-8.pdf
-goPredSim (MFO);1;Fmax(MFO);50;CI: 3;PP GO Function (MFO); CAFA3;https://www.nature.com/articles/s41598-020-80786-0.pdf
-DomFun (MFO);0;Fmax(MFO);62.4;/;PP GO Function (MFO); CAFA3;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04565-6
-GOLabeler (MFO);0;Fmax(MFO);62;CI: 1;PP GO Function (MFO);CAFA3;https://genomebiology.biomedcentral.com/track/pdf/10.1186/s13059-019-1835-8.pdf
-goPredSim (CCO);1;Fmax(CCO);57;CI: 2;PP GO Function (CCO); CAFA3;https://www.nature.com/articles/s41598-020-80786-0.pdf
-DomFun (CCO);0;Fmax(CCO);60.2;/;PP GO Function (CCO);CAFA3;https://bmcbioinformatics.biomedcentral.com/track/pdf/10.1186/s12859-022-04565-6.pdf
-GOLabeler (CCO);0;Fmax(CCO);61;CI: 1;PP GO Function (CCO);CAFA3;https://genomebiology.biomedcentral.com/track/pdf/10.1186/s13059-019-1835-8.pdf
-;;;;;;;
-ZeroR: PR ligand binding;-1;F1-all;0;/;PR ligand binding;TestSet225;own
-Random: PR ligand binding;-1;F1-all;3.7;/;PR ligand binding;TestSet225;own
-Random: PR effect;-1;MCC;-0.002;CI: 0.016;PR effect;PMD4k;Performance: https://link.springer.com/article/10.1007/s00439-021-02411-y
-Random: PR effect;-1;Spearman;;;;;
-Random: PR effect;-1;Q2;61.08;CI: 0.41;PR effect;PMD4k;Performance: https://link.springer.com/article/10.1007/s00439-021-02411-y
-Random: PR secondary structure;-1;Q3;38.6;/;PR secondary structure;CASP12;own
-ZeroR: PR secondary structure;-1;Q3;48.6;/;PR secondary structure;CASP12;own
-ZeroR: PP localization;-1;Q10;33;/;PP localization;DeepLoc Test;own
-Random: PP localization;-1;Q10;19.2;/;PP localization;DeepLoc;own
-Random: PP CATH;-1;MCC;0.00003;CI: 0.00080;PP CATH;TOP 1773;https://doi.org/10.1101/2022.03.10.483805
-Random: PP CATH;-1;F1;0.04;CI: 0.02;PP CATH;TOP 1773;https://doi.org/10.1101/2022.03.10.483805
-ZeroR: SCOP Class;-1;Average-Precision;0;/;PP SCOP Class;ASTRAL 2.06;own
-ZeroR: SCOP Fold;-1;Average-Precision;0;/;PP SCOP Fold;ASTRAL 2.06;own
-ZeroR: SCOP Superfamily;-1;Average-Precision;0;/;PP SCOP Superfamily;ASTRAL 2.06;own
-ZeroR: SCOP Family;-1;Average-Precision;0;/;PP SCOP Family;ASTRAL 2.06;own
-Random: SCOP Class;-1;Average-Precision;21.578;/;PP SCOP Class;ASTRAL 2.06;own
-Random: SCOP Fold;-1;Average-Precision;0.975;/;PP SCOP Fold;ASTRAL 2.06;own
-Random: SCOP Superfamily;-1;Average-Precision;0.213;/;PP SCOP Superfamily;ASTRAL 2.06;own
-Random: SCOP Family;-1;Average-Precision;0;/;PP SCOP Family;ASTRAL 2.06;own
-ZeroR: PS membrane helix;-1;Recall;0;/;PS membrane helix;593;own*
-ZeroR: PS membrane beta;-1;Recall;0;/;PS membrane beta;65;own*
-ZeroR: PS signal peptide;-1;Recall;0;/;PS signal peptide;661 globular;own*
-Random: PS membrane helix;-1;;;;;;
-Random: PS membrane beta;-1;;;;;;
-Random: PS signal peptide;-1S;;;;;;
-;;;;;;;
-;;;;;;;* need to check
-;;;;;;;
-;;;;;Enzyme Prediction;;
-;;;;;PPI;;
+Method;Embedding based;Performance Measure;Performance;CI/SE;CI;Prediction type;Testset;Publication
+
+AlphaFold2;0;TM-score;0.79;/;0;PR 3D;CASP dataset;https://www.biorxiv.org/content/10.1101/2022.07.21.500999v1.full
+OmegaFold;1;TM-score;0.79;/;0;PR 3D;CASP dataset;https://www.biorxiv.org/content/10.1101/2022.07.21.500999v1.full
+
+SignalP-5.0 retrain;0;MCC;0.774;/;0;PR signal peptide;SignalP5.0 benchmark set;https://www.nature.com/articles/s41587-021-01156-3#Sec10
+SignalP-5.0 original;0;MCC;0.863;/;0;PR signal peptide;SignalP5.0 benchmark set;https://www.nature.com/articles/s41587-021-01156-3#Sec10
+SignalP-6.0;1;MCC;0.868;/;0;PR signal peptide;Signal-P5.0 benchmark set;https://www.nature.com/articles/s41587-021-01156-3#Sec10
+BLAST;0;MCC;0.3100;CI: 0.0056;0.0056;PP CATH;TOP 1773;https://doi.org/10.1101/2022.03.10.483805
+CATHe;1;MCC;0.8554;CI: 0.0041;0.0041;PP CATH;TOP 1773;https://doi.org/10.1101/2022.03.10.483805
+ConSeq;0;MCC;0.608;CI: 0.006;0.006;PR conservation;ConSurf10k;https://link.springer.com/article/10.1007/s00439-021-02411-y
+VESPA;1;MCC;0.596;CI: 0.006;0.006;PR conservation;ConSurf10k;https://link.springer.com/article/10.1007/s00439-021-02411-y
+VESPA(MSACons);2;MCC;0.32;CI: 0.01;0.01;PR conservation;ConSurf10k;https://link.springer.com/article/10.1007/s00439-021-02411-y
+
+bindPredictML17;0;F1-all;34;CI: 2;2;PR ligand binding;TestSet225;Performance: https://www.biorxiv.org/content/10.1101/2021.09.03.458869v3.full
+bindEmbed21DL;1;F1-all;47;CI: 2;2;PR ligand binding;TestSet225;https://www.biorxiv.org/content/10.1101/2021.09.03.458869v3.full
+bindEmbed21DL(MSACons);2;F1-all;50;CI: 2;2;PR ligand binding;TestSet225;own
+
+BOCTOPUS2;0;F1;89.1;/;0;PS membrane beta;65;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04873-x
+TOPCONS2;0;F1;77.3;/;0;PS membrane helix;593;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04873-x
+TMbed (beta);1;F1;97.0;/;0;PS membrane beta;65;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04873-x
+TMbed (alpha);1;F1;88.7;/;0;PS membrane helix;593;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04873-x
+TMbed (beta) (MSACons);2;F1;98.5;/;0;PS membrane beta;65;own
+TMbed (alpha) (MSACons);2;F1;88.8;/;0;PS membrane helix;593;own
+
+NetSurfP-2.0;0;Q3;82.0;SE: 1.6;3;PR secondary structure;CASP12;Performance: https://www.biorxiv.org/content/10.1101/2020.07.12.199554v3.full.pdf
+ProtT5-XL-U50 (SecStr);1;Q3;81.4;SE:1.6;3;PR secondary structure;CASP12;https://www.biorxiv.org/content/10.1101/2020.07.12.199554v3.full.pdf
+Ankh (SecStr);1;Q3;83.8;CI:3;3;PR secondary structure;CASP12;https://arxiv.org/pdf/2301.06568v1.pdf
+DeepLoc (localization);0;Q10;78;/;0;PP localization;DeepLoc Test;Performance: https://www.biorxiv.org/content/10.1101/2020.07.12.199554v3.full.pdf
+ProtT5-XL-U50 (localization);1;Q10;81;/;0;PP localization;DeepLoc Test;https://www.biorxiv.org/content/10.1101/2020.07.12.199554v3.full.pdf
+LA(ProtT5);1;Q10;86;SD:0.3;0.6;PP localization;DeepLoc Test;https://academic.oup.com/bioinformaticsadvances/article/1/1/vbab035/6432029?login=true
+
+ODiNPred;0;Spearman;0.67;CI: 0.01;0.01;PR disorder;CheZOD117;https://www.biorxiv.org/content/10.1101/2022.06.23.497276v3.full.pdf
+SETH;1;Spearman;0.72;CI: 0.01;0.01;PR disorder;CheZOD117;https://www.biorxiv.org/content/10.1101/2022.06.23.497276v3.full.pdf
+SETH(MSACons);2;Spearman;0.43;CI: 0.05;0.05;PR disorder;CheZOD117;own
+DeepSequence;0;Spearman;0.499;/;0;PR effect;DMS41;https://www.biorxiv.org/content/10.1101/2021.07.09.450648v2.full
+GEMME;0;Spearman;0.53;SD: 0.13;0;PR effect;DMS41;https://academic.oup.com/mbe/article/36/11/2604/5548199
+ESM-1v (+further training);1;Spearman;0.519;/;0;PR effect;DMS41;https://www.biorxiv.org/content/10.1101/2021.07.09.450648v2.full
+TMalign;0;Spearman;0.37405;/;0;PP SCOP;ASTRAL 2.06;https://www.cell.com/cell-systems/pdfExtended/S2405-4712(21)00203-9
+MT-LSTM;1;Spearman;0.70062;/;0;PP SCOP;ASTRAL 2.06;https://www.cell.com/cell-systems/pdfExtended/S2405-4712(21)00203-9
+
+DomFun (BPO);0;Fmax(BPO);49.2;/;0;PP GO Function (BPO); CAFA3;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04565-6
+GOLabeler (BPO);0;Fmax(BPO);40;CI: 1;1;PP GO Function (BPO);CAFA3;https://genomebiology.biomedcentral.com/track/pdf/10.1186/s13059-019-1835-8.pdf
+DomFun (MFO);0;Fmax(MFO);62.4;/;0;PP GO Function (MFO); CAFA3;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04565-6
+GOLabeler (MFO);0;Fmax(MFO);62;CI: 1;1;PP GO Function (MFO);CAFA3;https://genomebiology.biomedcentral.com/track/pdf/10.1186/s13059-019-1835-8.pdf
+DomFun (CCO);0;Fmax(CCO);60.2;/;0;PP GO Function (CCO);CAFA3;https://bmcbioinformatics.biomedcentral.com/track/pdf/10.1186/s12859-022-04565-6.pdf
+GOLabeler (CCO);0;Fmax(CCO);61;CI: 1;1;PP GO Function (CCO);CAFA3;https://genomebiology.biomedcentral.com/track/pdf/10.1186/s13059-019-1835-8.pdf
+goPredSim (BPO);1;Fmax(BPO);37;CI: 2;2;PP GO Function (BPO); CAFA3;https://www.nature.com/articles/s41598-020-80786-0.pdf
+goPredSim (MFO);1;Fmax(MFO);50;CI: 3;3;PP GO Function (MFO); CAFA3;https://www.nature.com/articles/s41598-020-80786-0.pdf
+goPredSim (CCO);1;Fmax(CCO);57;CI: 2;2;PP GO Function (CCO); CAFA3;https://www.nature.com/articles/s41598-020-80786-0.pdf
+
+Random: PR SecStr;-1;Q3;38.6;/;0;PR secondary structure;CASP12;own
+ZeroR: PR SecStr;-1;Q3;48.6;/;0;PR secondary structure;CASP12;own
+ZeroR: PP localization;-1;Q10;33;/;0;PP localization;DeepLoc Test;own
+Random: PP localization;-1;Q10;19.2;/;0;PP localization;DeepLoc;own
+Random: SCOP Class;-1;Average-Precision;21.578;/;0;PP SCOP Class;ASTRAL 2.06;own
+
+BOCTOPUS2;0;Recall;85.3;CI: 9.2;9.2;PS membrane beta;65;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04873-x
+TOPCONS2;0;Recall;76.4;CI: 1.5;1.5;PS membrane helix;593;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04873-x
+TMSEG;0;Recall;81.5;CI: 3.7;3.7;PS signal peptide;661 globular;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04873-x
+TMbed (beta);1;Recall;95.0;CI: 4.3;4.3;PS membrane beta;65;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04873-x
+TMbed (alpha);1;Recall;88.7;CI: 0.6;0.6;PS membrane helix;593;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04873-x
+TMbed;1;Recall;93.3;CI: 1.4;1.4;PS signal peptide;661 globular;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04873-x
+DeepTMHMM;1;Recall;95.3;CI: 1.8;1.8;PS signal peptide;661 globular;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04873-x
+
+TMalign Class;0;Average-Precision;54.866;/;0;PP SCOP Class;ASTRAL 2.06;https://www.cell.com/cell-systems/pdfExtended/S2405-4712(21)00203-9
+TMalign Fold;0;Average-Precision;85.072;/;0;PP SCOP Fold;ASTRAL 2.06;https://www.cell.com/cell-systems/pdfExtended/S2405-4712(21)00203-9
+TMalign Superfamily;0;Average-Precision;83.340;/;0;PP SCOP Superfamily;ASTRAL 2.06;https://www.cell.com/cell-systems/pdfExtended/S2405-4712(21)00203-9
+TMalign Family;0;Average-Precision;57.059;/;0;PP SCOP Family;ASTRAL 2.06;https://www.cell.com/cell-systems/pdfExtended/S2405-4712(21)00203-9
+MT-LSTM Class;1;Average-Precision;95.146;/;0;PP SCOP Class;ASTRAL 2.06;https://www.cell.com/cell-systems/pdfExtended/S2405-4712(21)00203-9
+MT-LSTM Fold;1;Average-Precision;92.387;/;0;PP SCOP Fold;ASTRAL 2.06;https://www.cell.com/cell-systems/pdfExtended/S2405-4712(21)00203-9
+MT-LSTM Superfamily;1;Average-Precision;95.084;/;0;PP SCOP Superfamily;ASTRAL 2.06;https://www.cell.com/cell-systems/pdfExtended/S2405-4712(21)00203-9
+MT-LSTM Family;1;Average-Precision;66.901;/;0;PP SCOP Family;ASTRAL 2.06;https://www.cell.com/cell-systems/pdfExtended/S2405-4712(21)00203-9
