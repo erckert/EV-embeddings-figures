@@ -1,18 +1,18 @@
 Model;Q3;SE Q3;CI Q3;Reproduced?
-SeqVec raw embeddings;72.2;0.5;0.9;1
-SeqVec MSA embeddings;78.3;0.6;1;0
-SeqVec MSAConsensus;76.5;0.4;0.7;0
+SeqVec raw;72.2;0.5;0.9;1
+SeqVec MSA;78.3;0.6;1;0
+SeqVec MSACons;76.5;0.4;0.7;0
 SeqVec PSSMConcat;75.8;0.4;0.7;1
 SeqVec PSSMSplit;75.3;0.4;0.7;1
-ProtBert raw embeddings;79.7;0.5;0.9;1
-ProtBert MSA embeddings;81.0;0.4;0.7;1
-ProtBert MSAConsensus;80.1;0.4;0.7;1
+ProtBert raw;79.7;0.5;0.9;1
+ProtBert MSA;81.0;0.4;0.7;1
+ProtBert MSACons;80.1;0.4;0.7;1
 ProtBert PSSMConcat;79.9;0.4;0.7;1
 ProtBert PSSMSplit;80.0;0.4;0.7;1
-ProtT5 raw embeddings;83.7;0.4;0.7;1
-ProtT5 MSA embeddings;83.5;0.4;0.7;1
-ProtT5 MSAConsensus;82.8;0.4;0.7;1
+ProtT5 raw;83.7;0.4;0.7;1
+ProtT5 MSA;83.5;0.4;0.7;1
+ProtT5 MSACons;82.8;0.4;0.7;1
 ProtT5 PSSMConcat;83.7;0.4;0.7;1
 ProtT5 PSSMSplit;83.4;0.4;0.7;1
-Random Baseline: shuffel labels;25.6;0.2;0.3;1
+Random Baseline: shuffle labels;25.6;0.2;0.3;1
 Random Baseline: majority class;41.8;0.6;1;1
