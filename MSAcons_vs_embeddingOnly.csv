@@ -16,20 +16,30 @@ SETH;1;Spearman;0.72;CI: 0.01;0.01;PR disorder;CheZOD117;https://www.biorxiv.org
 SETH MSACons;2;Spearman;0.43;CI: 0.05;0.05;PR disorder;CheZOD117;own
 shuffle labels;-1;Spearman;0.00;CI: 0.01;0.01;PR disorder;CheZOD117;own
 
-BOCTOPUS2;0;Recall;85.3;CI:9.2;9.2;PS membrane beta;57;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04873-x
-TMbed;1;Recall;95.0;CI:4.3;4.3;PS membrane beta;57;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04873-x
-TMbed MSACons;2;Recall;98.7;CI:0.9;0.9;PS membrane beta;57;own
-shuffle labels;-1;Recall;0;/;0;PS membrane beta;57;own
-BOCTOPUS2;0;Precision;96.6;CI:2.0;2.0;PS membrane beta;57;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04873-x
-TMbed;1;Precision;99.2;CI:0.7;0.7;PS membrane beta;57;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04873-x
-TMbed MSACons;2;Precision;98.2;CI:1.1;1.1;PS membrane beta;57;own
-shuffle labels;-1;Precision;0;/;0;PS membrane beta;57;own
+BOCTOPUS2;0;Qok;56.6;CI:18.9;18.9;PS membrane beta;57;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04873-x
+TMbed;1;Qok;80.5;CI:11.4;11.4;PS membrane beta;57;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04873-x
+TMbed MSACons;2;Qok;82.4;CI:10.1;10.1;PS membrane beta;57;own
+shuffle labels;-1;Qok;0;/;0;PS membrane beta;57;own
 
-TOPCONS2;0;Recall;76.4;CI:1.5;1.5;PS membrane helix;571;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04873-x
-TMbed;1;Recall;88.7;CI:0.6;0.6;PS membrane helix;571;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04873-x
-TMbed MSACons;2;Recall;90.1;CI:1.8;1.8;PS membrane helix;571;own
-shuffle labels;-1;Recall;0;/;0;PS membrane helix;571;own
-TOPCONS2;0;Precision;78.4;CI:0.8;0.8;PS membrane helix;571;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04873-x
-TMbed;1;Precision;88.7;CI:0.7;0.7;PS membrane helix;571;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04873-x
-TMbed MSACons;2;Precision;87.6;CI:1.9;1.9;PS membrane helix;571;own
-shuffle labels;-1;Precision;0;/;0;PS membrane helix;571;own
+TOPCONS2;0;Qok;41.0;CI:3.1;3.1;PS membrane helix;571;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04873-x
+TMbed;1;Qok;62.4;CI:3.7;3.7;PS membrane helix;571;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04873-x
+TMbed MSACons;2;Qok;70.1;CI:3.7;3.7;PS membrane helix;571;own
+shuffle labels;-1;Qok;0;/;0;PS membrane helix;571;own
+
+BOCTOPUS2;0;Recall;85.3;CI:9.2;9.2;PS recall membrane beta;57;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04873-x
+TMbed;1;Recall;95.0;CI:4.3;4.3;PS recall membrane beta;57;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04873-x
+TMbed MSACons;2;Recall;98.7;CI:0.9;0.9;PS recall membrane beta;57;own
+shuffle labels;-1;Recall;0;/;0;PS recall membrane beta;57;own
+BOCTOPUS2;0;Precision;96.6;CI:2.0;2.0;PS precision membrane beta;57;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04873-x
+TMbed;1;Precision;99.2;CI:0.7;0.7;PS precision membrane beta;57;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04873-x
+TMbed MSACons;2;Precision;98.2;CI:1.1;1.1;PS precision membrane beta;57;own
+shuffle labels;-1;Precision;0;/;0;PS precision membrane beta;57;own
+
+TOPCONS2;0;Recall;76.4;CI:1.5;1.5;PS recall membrane helix;571;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04873-x
+TMbed;1;Recall;88.7;CI:0.6;0.6;PS recall membrane helix;571;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04873-x
+TMbed MSACons;2;Recall;90.1;CI:1.8;1.8;PS recall membrane helix;571;own
+shuffle labels;-1;Recall;0;/;0;PS recall membrane helix;571;own
+TOPCONS2;0;Precision;78.4;CI:0.8;0.8;PS precision membrane helix;571;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04873-x
+TMbed;1;Precision;88.7;CI:0.7;0.7;PS precision membrane helix;571;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04873-x
+TMbed MSACons;2;Precision;87.6;CI:1.9;1.9;PS precision membrane helix;571;own
+shuffle labels;-1;Precision;0;/;0;PS precision membrane helix;571;own

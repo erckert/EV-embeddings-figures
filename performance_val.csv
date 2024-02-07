@@ -14,5 +14,5 @@ ProtT5 MSA;83.5;0.4;0.7;1
 ProtT5 MSACons;82.8;0.4;0.7;1
 ProtT5 PSSMConcat;83.7;0.4;0.7;1
 ProtT5 PSSMSplit;83.4;0.4;0.7;1
-Random Baseline: shuffle labels;25.6;0.2;0.3;1
+Random Baseline: shuffle labels;35.6;0.2;0.3;1
 Random Baseline: majority class;41.8;0.6;1;1

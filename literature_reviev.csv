@@ -1,8 +1,12 @@
 Method;Embedding based;Performance Measure;Performance;CI/SE;CI;Prediction type;Testset;Publication
 
+random pairs;-1;TM-score;0.17;/;0;PR CAMEO 3D;PDB;https://seq2fun.dcmb.med.umich.edu//TM-score/TM-score.pdf
+AlphaFold2;0;TM-score;0.88;/;0;PR CAMEO 3D;CAMEO;https://www.science.org/doi/10.1126/science.ade2574
+ESMFold;1;TM-score;0.83;/;0;PR CAMEO 3D;CAMEO;https://www.science.org/doi/10.1126/science.ade2574
+
 random pairs;-1;TM-score;0.17;/;0;PR 3D;PDB;https://seq2fun.dcmb.med.umich.edu//TM-score/TM-score.pdf
-AlphaFold2;0;TM-score;0.88;/;0;PR 3D;CAMEO;https://www.science.org/doi/10.1126/science.ade2574
-ESMFold;1;TM-score;0.83;/;0;PR 3D;CAMEO;https://www.science.org/doi/10.1126/science.ade2574
+AlphaFold2;0;TM-score;0.85;/;0;PR 3D;CASP14;https://www.science.org/doi/10.1126/science.ade2574
+ESMFold;1;TM-score;0.68;/;0;PR 3D;CASP14;https://www.science.org/doi/10.1126/science.ade2574
 
 shuffle labels;-1;MCC;0.00116;CI: 0.00008;0.00008;PR signal peptide;Signal-P5.0 benchmark set;own
 SignalP-5.0;0;MCC;0.863;/;0;PR signal peptide;SignalP5.0 benchmark set;https://www.nature.com/articles/s41587-021-01156-3#Sec10
@@ -21,18 +25,18 @@ DeepLoc;0;Q10;78;/;0;PP localization;DeepLoc Test;Performance: https://www.biorx
 LA(ProtT5);1;Q10;86;SD:0.3;0.6;PP localization;DeepLoc Test;https://academic.oup.com/bioinformaticsadvances/article/1/1/vbab035/6432029?login=true
 
 shuffle labels;-1;Spearman;-0.00079;CI: 0.00007;0.00007;PR effect;DMS41;own
-GEMME;0;Spearman;0.53;SD: 0.13;0;PR effect;DMS41;https://academic.oup.com/mbe/article/36/11/2604/5548199
-ESM-1v (fine-tuned);1;Spearman;0.519;/;0;PR effect;DMS41;https://www.biorxiv.org/content/10.1101/2021.07.09.450648v2.full
+GEMME;0;Spearman;0.53;SD: 0.13;0.026;PR effect;DMS41;https://academic.oup.com/mbe/article/36/11/2604/5548199
+ESM-1v (fine-tuned);1;Spearman;0.519;CI:0.02;0.02;PR effect;DMS41;https://www.biorxiv.org/content/10.1101/2021.07.09.450648v2.full
 
 shuffle labels;-1;Spearman;0.0008;CI:0.0001;0.0001;PP SCOP;ASTRAL 2.06;own
 TMalign;0;Spearman;0.37405;/;0;PP SCOP;ASTRAL 2.06;https://www.cell.com/cell-systems/pdfExtended/S2405-4712(21)00203-9
 MT-LSTM;1;Spearman;0.70062;/;0;PP SCOP;ASTRAL 2.06;https://www.cell.com/cell-systems/pdfExtended/S2405-4712(21)00203-9SSS
 
 shuffle labels (BPO);-1;Fmax(CCO);25;/;0;PP GO Function (CCO); CAFA3;https://www.nature.com/articles/s41598-020-80786-0.pdf
-DomFun (BPO);0;Fmax(BPO);49.2;/;0;PP GO Function (BPO); CAFA3;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04565-6
+DomFun (BPO);0;Fmax(BPO);49.2;/;2;PP GO Function (BPO); CAFA3;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04565-6
 goPredSim (BPO);1;Fmax(BPO);37;CI: 2;2;PP GO Function (BPO); CAFA3;https://www.nature.com/articles/s41598-020-80786-0.pdf
 shuffle labels (MFO);-1;Fmax(CCO);31;/;0;PP GO Function (CCO); CAFA3;https://www.nature.com/articles/s41598-020-80786-0.pdf
-DomFun (MFO);0;Fmax(MFO);62.4;/;0;PP GO Function (MFO); CAFA3;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04565-6
+DomFun (MFO);0;Fmax(MFO);62.4;/;3;PP GO Function (MFO); CAFA3;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04565-6
 goPredSim (MFO);1;Fmax(MFO);50;CI: 3;3;PP GO Function (MFO); CAFA3;https://www.nature.com/articles/s41598-020-80786-0.pdf
 shuffle labels (CCO);-1;Fmax(CCO);55;/;0;PP GO Function (CCO); CAFA3;https://www.nature.com/articles/s41598-020-80786-0.pdf
 GOLabeler (CCO);0;Fmax(CCO);61;CI: 1;1;PP GO Function (CCO);CAFA3;https://genomebiology.biomedcentral.com/track/pdf/10.1186/s13059-019-1835-8.pdf
