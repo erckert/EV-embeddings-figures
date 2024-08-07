@@ -1,9 +1,11 @@
 Method;Embedding based;Performance Measure;Performance;CI/SE;CI;Prediction type;Testset;Publication
 
 ConSeq;0;MCC;0.608;CI: 0.006;0.006;PR conservation;ConSurf10k;https://link.springer.com/article/10.1007/s00439-021-02411-y
-mmseqs2;0;MCC;0.418;CI: 0.009;0.009;PR conservation;ConSurf10k;own
-VESPA;1;MCC;0.596;CI: 0.006;0.006;PR conservation;ConSurf10k;https://link.springer.com/article/10.1007/s00439-021-02411-y
-VESPA MSACons;2;MCC;0.32;CI: 0.01;0.01;PR conservation;ConSurf10k;https://link.springer.com/article/10.1007/s00439-021-02411-y
+MMseqs2;0;MCC;0.418;CI: 0.009;0.009;PR conservation;ConSurf10k;own
+VESPA (reported);1;MCC;0.596;CI: 0.006;0.006;PR conservation;ConSurf10k;https://link.springer.com/article/10.1007/s00439-021-02411-y
+VESPA (re-evaluated);1;MCC;0.37;CI: 0.01;0.006;PR conservation;ConSurf10k;https://link.springer.com/article/10.1007/s00439-021-02411-y
+VESPA MSACons (MMseqs2);2;MCC;0.35;CI: 0.01;0.01;PR conservation;ConSurf10k;https://link.springer.com/article/10.1007/s00439-021-02411-y
+VESPA MSACons (MAFFT);2;MCC;0.41;CI: 0.01;0.01;PR conservation;ConSurf10k;https://link.springer.com/article/10.1007/s00439-021-02411-y
 shuffle labels;-1;MCC;0;CI: 0.006;0.006;PR conservation;ConSurf10k;own
 
 bindPredictML17;0;F1-all;34;CI: 2;2;PR ligand binding;TestSet225;Performance: https://www.biorxiv.org/content/10.1101/2021.09.03.458869v3.full
